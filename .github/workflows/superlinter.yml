@@ -1,9 +1,9 @@
-name: super-liner
+name: Super-linter
 
 on: push
 jobs:
 super-lint:
-name: my lint code base
+name: lint code base
 runs-on: ubuntu-latest
 steps:
 -name: Checkout code
@@ -12,5 +12,5 @@ uses: actions/checkout@v2
 uses: github/super-linter@v3
 env:
 DEFULT_BRANCH: main
-GITHUB_TOKEN: ${{secrects.GITHUB_TOKEN}}
+GITHUB_TOKEN: ${ { secrects.GITHUB_TOKEN } }
 
