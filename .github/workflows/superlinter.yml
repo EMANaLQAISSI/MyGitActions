@@ -3,7 +3,7 @@ name: super-liner
 on: push
 jobs:
 super-lint:
-name: lint code base
+name: my lint code base
 runs-on: ubuntu-latest
 steps:
 -name: Checkout code
